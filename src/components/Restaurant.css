@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.searchBar{
+    padding: 5% 10%;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.searchInput input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+}
+.ratingInput input{
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    width: 40%;
+}
+.allCards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.oneCard{
+    box-shadow: 1px 1px 10px grey;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 1rem; 
+    margin: 1%;
+}
+
+.restaurant-card {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .restaurant-card h3 {
+    margin-top: 0;
+  }
+  
+  .restaurant-card p {
+    margin: 0;
+    color: #333;
+  }
+  
+  .search-bar {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar input {
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .restaurant-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  .restaurantCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 20px;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  
+  .restaurantCard {
+    /* Add modern styling for the restaurant card */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Media queries for responsive design */
+  @media (max-width: 1024px) {
+    .restaurantCards {
+      grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .restaurantCards {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+
+  .restaurantCard {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: center; /* Center align text */
+  }
+  
+  .restaurantCard h5 {
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  .restaurantCard p {
+    margin-bottom: 5px; /* Add some space below each paragraph */
+  }
+  
+    
